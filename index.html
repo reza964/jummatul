@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile & News</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>BOY's WEB</h1>
+            <nav>
+                <ul>
+                    <li><a href="#profile">Profile</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section id="profile" class="section">
+            <div class="container">
+                <h2>Profile</h2>
+                <div class="profile-card">
+                    <img src="gambar/profile2.jpeg" alt="Profile Picture" class="profile-img">
+                    <h2>Jummatul Isroq</h2>
+                    <p>Mahasiswa Institut Teknologi Sumatera</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="news" class="section">
+            <div class="container">
+                <h2>News</h2>
+                <div class="news-cards">
+                    <div class="news-card">
+                        <h3>Perbedaan lama siang dan malam</h3>
+                        <p>Penjelasan mengenai lama siang dan malam.</p>
+                        <a href="penjelasan/index.html">Menarik nih!</a>
+                    </div>
+                    <div class="news-card">
+                        <h3>Kalkulator Lama Siang dan Malam</h3>
+                        <p>Melakukan perhitungan sederhana dengan acuan lintang pengamat</p>
+                        <a href="kalku/index.html">Mari Hitung</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 BOY's WEB | Jummatul Isroq</p>
+        </div>
+    </footer>
+</body>
+</html>
